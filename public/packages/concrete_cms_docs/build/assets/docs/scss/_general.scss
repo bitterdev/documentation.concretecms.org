@@ -18,6 +18,16 @@
   }
 }
 
+.ccm-dark-mode:not(.page-type-developer-document) main {
+  padding-top: 15px;
+}
+
+.ccm-page .page-title {
+  text-transform: none !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+}
+
 .ccm-block-likes-this-wrapper {
   margin-bottom: 20px;
 }
