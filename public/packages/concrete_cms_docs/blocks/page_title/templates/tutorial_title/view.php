@@ -32,14 +32,6 @@ if (is_object($audienceObject)) {
 }
 ?>
 <div class="ccm-tutorial-title">
-    <h1 class="page-title">
-        <?php echo h($title) ?>
-    </h1>
-
-    <div class="page-date">
-        <?php echo $date; ?>
-    </div>
-
     <?php if ($userInfo instanceof UserInfo) { ?>
         <div class="page-author">
             <?php echo t("By %s for %s", sprintf("<a href=\"#\">%s</a>", $userInfo->getUserDisplayName()), implode(', ', $audience)); ?>

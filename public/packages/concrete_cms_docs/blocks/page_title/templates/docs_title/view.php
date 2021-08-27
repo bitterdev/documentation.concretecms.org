@@ -27,16 +27,6 @@ $inspector = new PageInspector($page);
         <?php echo h($title) ?>
     </h1>
 
-    <div class="page-date">
-        <?php echo $date; ?>
-    </div>
-
-    <?php if ($userInfo instanceof UserInfo) { ?>
-        <div class="page-author">
-            <?php echo t("By %s", sprintf("<a href=\"#\">%s</a>", $userInfo->getUserDisplayName())); ?>
-        </div>
-    <?php } ?>
-
     <?php /*
     <div class="total-comments">
         <i class="far fa-comment"></i> <?php echo $inspector->getTotalComments() ?>
