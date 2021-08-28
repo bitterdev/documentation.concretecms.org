@@ -93,3 +93,9 @@ main {
     text-align: left;
   }
 }
+
+/* Fix for side nav */
+.ccm-page.page-type-editor-document .col-sidebar .nav ul,
+.ccm-page.page-type-editor-document .col-sidebar .nav li:not(:last-child) {
+  margin-bottom: 5px !important;
+}
